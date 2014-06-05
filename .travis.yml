@@ -6,3 +6,6 @@ install:
     - pip install -r requirements/base.txt
 script:
     - python manage.py test
+notifications:
+    email:
+        - erickxls@gmail.com
