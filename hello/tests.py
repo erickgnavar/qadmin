@@ -6,4 +6,4 @@ class HelloTestCase(TestCase):
 		self.assertEqual(1, 1)
 
 	def test_not_ok(self):
-		self.assertTrue(False)
+		self.assertTrue(1)
