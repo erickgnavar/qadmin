@@ -10,7 +10,7 @@ notifications:
         - erickxls@gmail.com
 	hipchat:
 		rooms:
-			- [75VkqGDLjAglp0bFZRNLr1qq0B8GIzl0OwMFoPAY]@[travis]
+			- 75VkqGDLjAglp0bFZRNLr1qq0B8GIzl0OwMFoPAY@travis
 		template:
 			- '%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{message} (<a href="%{build_url}">Details</a>/<a href="%{compare_url}">Change view</a>)'
 		format: html
